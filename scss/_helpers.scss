@@ -1,0 +1,30 @@
+.bg-expert {
+  background-image: linear-gradient(
+    to right,
+    rgb(246, 64, 64),
+    rgb(248, 248, 66),
+    rgb(54, 241, 54)
+  );
+}
+
+.bg-junior {
+  background-image: linear-gradient(
+    to right,
+    rgb(246, 64, 64),
+    rgb(248, 248, 66)
+  );
+}
+
+.bg-intermediate {
+  background-image: linear-gradient(
+    to right,
+    rgb(246, 64, 64),
+    rgb(248, 248, 66),
+    rgb(133, 248, 133)
+  );
+}
+
+.modal-content {
+  border-radius: 1px;
+  border: none;
+}

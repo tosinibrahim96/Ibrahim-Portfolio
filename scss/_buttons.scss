@@ -1,0 +1,18 @@
+.btn {
+  text-transform: capitalize;
+  border-radius: 25px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  background: #18252a;
+  padding: 8px 25px;
+
+  @include button-design;
+}
+.btn-primary {
+  &:hover {
+    background: #18252a;
+  }
+}

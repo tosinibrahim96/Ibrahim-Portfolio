@@ -1,0 +1,37 @@
+.content-section {
+  padding: 50px 0;
+
+  &.content-section-centered {
+    text-align: center;
+  }
+
+  .section-header-row {
+    margin-bottom: 5%;
+  }
+
+  &.dark-content {
+    background: #557c83;
+    color: #ffffff;
+    .about-me-header {
+      text-align: center;
+      color: #ffffff;
+    }
+    .about-me-content {
+      line-height: 2em;
+      text-align: justify;
+
+      .view-skills {
+        border: 1px solid #ffffff;
+        border-radius: 25px;
+        margin-right: 5px;
+        padding: 10px 25px;
+        color: #ffffff;
+        text-decoration: none;
+        position: relative;
+        transition: 800ms ease all;
+
+        @include button-design;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+html,
+body {
+  font-family: 'Roboto', serif;
+  color: #18252a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #18252a;
+}
+
+h1 {
+  color: #18252a;
+  font-size: 85px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  font-family: 'Cinzel', serif;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  line-height: 1.6;
+}
+
+textarea,
+input[type='text'],
+input[type='email'] {
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+textarea:focus,
+input[type='text']:focus,
+input[type='email']:focus {
+  -moz-box-shadow: 0 0 5px #51cbee;
+  -webkit-box-shadow: 0 0 5px #51cbee;
+  box-shadow: 0 0 5px #51cbee;
+  border: 1px solid #51cbee;
+}
+
+.modal-body {
+  background: #557c83;
+  color: #fff;
+}

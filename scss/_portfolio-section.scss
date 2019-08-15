@@ -1,0 +1,53 @@
+.projects-row-column {
+  margin-bottom: 20px;
+}
+
+.card {
+  border: none;
+  background-color: #557c83;
+}
+
+.card-title {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 30%;
+  text-transform: uppercase;
+}
+
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .card-link {
+    background: none;
+    border: 1px solid #fff;
+  }
+}
+
+.portfolio-subheading {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #3aafa9;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+  .col-sm-4 {
+    &.projects-row-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .card-links {
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .card-link {
+      margin-bottom: 4%;
+      margin-left: 0;
+    }
+  }
+}
